@@ -1,4 +1,3 @@
 <?php
-$output = shell_exec('ls -lart');
-echo "<pre>$output</pre>";
-?> 
+echo exec('curl -Ivk https://212.122.5.164');
+?>
